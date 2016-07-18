@@ -1,0 +1,6 @@
+##
+mvn package
+cd ./target
+
+##
+./spark-submit --class "SimpleApp" --master local[4] /home/afcamar/gitlab/datamonk/spark/simpleApp/target/simple-project-1.0.jar

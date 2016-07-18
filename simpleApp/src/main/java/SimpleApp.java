@@ -5,7 +5,7 @@ import org.apache.spark.api.java.function.Function;
 
 public class SimpleApp {
   public static void main(String[] args) {
-    String logFile = "YOUR_SPARK_HOME/README.md"; // Should be some file on your system
+    String logFile = "/home/afcamar/gitlab/datamonk/spark/test-README.md"; // Should be some file on your system
     SparkConf conf = new SparkConf().setAppName("Simple Application");
     JavaSparkContext sc = new JavaSparkContext(conf);
     JavaRDD<String> logData = sc.textFile(logFile).cache();
