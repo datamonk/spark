@@ -1,0 +1,6 @@
+ip_addr,os_type,os_version,mac_addr
+10.0.0.1,calvinhost_type,0.1,00:00:00:00:01
+10.0.0.2,stevehost_type,22,00:00:00:00:02
+10.0.0.3,server1_type,4,00:00:00:00:03
+10.0.0.4,admin1host_type,6.555,00:00:00:00:04
+10.0.0.5,admin2host_type,7.33,00:00:00:00:05
